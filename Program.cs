@@ -27,7 +27,6 @@
                 thread.Start();
             }
 
-            // Очікуємо завершення всіх потоків
             countdown.Wait();
 
             Console.WriteLine($"\nГлобальний мінімум: {globalMin}");
