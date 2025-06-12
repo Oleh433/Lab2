@@ -32,8 +32,8 @@ public class MinSearch {
             e.printStackTrace();
         }
 
-        System.out.println("\nГлобальний мінімум: " + globalMin);
-        System.out.println("Індекс мінімального елемента: " + globalMinIndex);
+        System.out.println("\nGlobal minimum: " + globalMin);
+        System.out.println("Global minimum index: " + globalMinIndex);
     }
 
     private static int[] generateArray(int size) {
@@ -47,7 +47,8 @@ public class MinSearch {
         int negativeIndex = rnd.nextInt(size);
         arr[negativeIndex] = -rnd.nextInt(1000) - 1;
 
-        System.out.println("Від’ємний елемент вставлено на позицію " + negativeIndex + ": " + arr[negativeIndex]);
+        System.out.println("Negative element on position " + negativeIndex + ": " + arr[negativeIndex]);
+
 
         return arr;
     }

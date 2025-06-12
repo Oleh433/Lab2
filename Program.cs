@@ -11,7 +11,7 @@
         static void Main()
         {
             int arraySize = 10_000_000;
-            int threadCount = Environment.ProcessorCount;
+            int threadCount = 10;
 
             array = GenerateArray(arraySize);
             countdown = new CountdownEvent(threadCount);
